@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'https://gmail-backend.herokuapp.com/api/v1';
+const url = 'https://bulk-email-tool-backend.herokuapp.com/api/v1';
 const headers = (token) => ({
   headers: {
     'Content-Type': 'application/json',
