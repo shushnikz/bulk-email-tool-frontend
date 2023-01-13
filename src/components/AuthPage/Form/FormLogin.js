@@ -58,10 +58,16 @@ export default function FormLogin({ isLoading, error, user }) {
         <p>{errors.password?.type === 'required' && 'Password is required'}</p>
         <p>{errors.password?.type === 'minLength' && 'Must be at least 7 characters'}</p>
 
+        <p>Email: test@gmail.com</p>
+        <p>Password: 1234567</p>
+
+
         <Button type='submit' disabled={formState.isSubmitting}>
           Login
         </Button>
+
       </form>
+
     );
   }
 }
